@@ -255,6 +255,13 @@
                         
                     case 'clear':
                         terminalContent.innerHTML = '';
+                        queueTypeText('>> SYSTEM USER PROFILE <<');
+                        queueTypeText('> NAME: Novin Nekuee');
+                        queueTypeText('> TITLE: Petroleum Engineering at AmirKabir University of Technology');
+                        queueTypeText('> SUBTITLE: Django/Flutter/Machine Learning Developer');
+                        queueTypeText('> LOCATION: Iran-Tehran');
+                        queueTypeText('> STATUS: Active // Social');
+                        queueTypeText('');
                         break;
                         
                     case 'about':
@@ -342,6 +349,8 @@
                         queueTypeText('> Sharif University of Technology | Iran, Tehran ');
                         queueTypeText('--- Petroleum Engineering (B.Sc.) | 2019 - 2024 ');
                         queueTypeText('');
+                        break;
+                    
 
                     case 'experience':
                         queueTypeText('>> Experience <<');
@@ -354,6 +363,7 @@
                         queueTypeText('> Freelancer | Iran, Tehran ');
                         queueTypeText('--- Freelancer programmer | 05/2020 - 06/2022 ');
                         queueTypeText('');
+                        break;
 
                     default:
                         queueTypeText(`Command not found: ${command}. Type "help" for available commands.`);
