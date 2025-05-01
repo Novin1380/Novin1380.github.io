@@ -292,9 +292,8 @@
                         break;
                         
                     case 'resume':
-                        // Create a hidden download link for the resume
                         const downloadLink = document.createElement('a');
-                        downloadLink.href = 'Novin Nekuee(Resume).pdf'; // Update this with your actual resume file path
+                        downloadLink.href = 'Novin Nekuee(Resume).pdf';
                         downloadLink.download = 'Novin Nekuee(Resume).pdf';
                         downloadLink.className = 'hidden-download';
                         downloadLink.target = '_blank';
@@ -353,10 +352,8 @@
                 }
             }
             
-            // Initialize the terminal
             initTerminal();
             
-            // Focus input on any click in terminal
             document.addEventListener('click', function() {
                 commandInput.focus();
             });
