@@ -198,7 +198,6 @@
                     queueTypeText('> Welcome to CYBER TERMINAL // ACCESS GRANTED');
                     queueTypeText('');
                     queueTypeText('>> SYSTEM USER PROFILE <<');
-                    queueTypeText('');
                     queueTypeText('> NAME: Novin Nekuee');
                     queueTypeText('> TITLE: Petroleum Engineering at AmirKabir University of Technology');
                     queueTypeText('> SUBTITLE: Django/Flutter/Machine Learning Developer');
@@ -241,13 +240,15 @@
                 switch(command.toLowerCase()) {
                     case 'help':
                         queueTypeText('Available commands:');
-                        queueTypeText('> help - Show this help message');
                         queueTypeText('> summary - Show professional summary');
                         queueTypeText('> about - Show about information');
                         queueTypeText('> skills - Show technical skills');
                         queueTypeText('> projects - Show recent projects');
                         queueTypeText('> contact - Show contact information');
+                        queueTypeText('> education - show education history');
+                        queueTypeText('> experience - show experince history');
                         queueTypeText('> resume - Download resume');
+                        queueTypeText('> help - Show this help message');
                         queueTypeText('> clear - Clear terminal screen');
                         queueTypeText('');
                         break;
@@ -286,6 +287,7 @@
                         queueTypeText('5. ROP Prediction for Drilling Operations');
                         queueTypeText('6. Personal portfolio website (with Django)');
                         queueTypeText('7. Parking Simulator');
+                        queueTypeText('8. Password Manager Application with functionality for password hashing and de-hashing');
                         queueTypeText('');
                         break;
                         
@@ -331,6 +333,28 @@
                         queueTypeText('');
                         break;
                         
+
+                    case 'education':
+                        queueTypeText('>> Education <<');
+                        queueTypeText('> Amirkabir University of Technology | Iran, Tehran ');
+                        queueTypeText('--- Petroleum Engineering - Drilling Engineering (M.Sc.) | 2024 - Present ');
+                        queueTypeText('');
+                        queueTypeText('> Sharif University of Technology | Iran, Tehran ');
+                        queueTypeText('--- Petroleum Engineering (B.Sc.) | 2019 - 2024 ');
+                        queueTypeText('');
+
+                    case 'experience':
+                        queueTypeText('>> Experience <<');
+                        queueTypeText('> Sharif University of Technology & NISOC | Iran, Tehran ');
+                        queueTypeText('--- Drilling Engineering android application (Bachelor project) | 02/2023 - 06/2023 ');
+                        queueTypeText('');
+                        queueTypeText('> Dana Energy | Iran, Tehran ');
+                        queueTypeText('--- Drilling Data Analysis Trainee | 07/2023 - 10/2023 ');
+                        queueTypeText('');
+                        queueTypeText('> Freelancer | Iran, Tehran ');
+                        queueTypeText('--- Freelancer programmer | 05/2020 - 06/2022 ');
+                        queueTypeText('');
+
                     default:
                         queueTypeText(`Command not found: ${command}. Type "help" for available commands.`);
                 }
