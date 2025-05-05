@@ -40,4 +40,8 @@ You’ll see animated text output, blinking cursors, and simulated command-line 
 └── script (inline)     
 
 
+```
+
+<h6 align="center">be kind with each other and share your problems solution to makes better world!</h6>
 <h5 align="center">just enjoy! 👋</h5>
+
