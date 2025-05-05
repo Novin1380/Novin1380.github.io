@@ -38,3 +38,6 @@ You’ll see animated text output, blinking cursors, and simulated command-line 
 ├── index.html          
 ├── style (inline)      
 └── script (inline)     
+
+
+<h5 align="center">just enjoy! 👋</h5>
